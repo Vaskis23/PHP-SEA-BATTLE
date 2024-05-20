@@ -1,0 +1,44 @@
+body {
+    background-color: #223;
+    color: white;
+    padding: 20px;
+}
+
+.map {    
+    width: 500px;
+    height: 500px;
+    border: 1px solid #444;
+     float: left;      
+}
+
+.map .sq {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #666;
+    float:left;
+}
+
+.map .ship {
+    background-color: #651;
+}
+
+ .map-container {
+    display: flex;
+    align-items: flex-start;
+ 
+} 
+
+ .vert {
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    margin-top: 20px;
+} 
+
+
+  .let {
+    display: inline-block; 
+    padding: 17px;
+    border: 1px solid #555;
+    text-align: center;
+  }
